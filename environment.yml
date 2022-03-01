@@ -1,7 +1,16 @@
 name: DaLI-DM
 channels: 
-	-conda-forge
+  - conda-forge
 dependencies:
-	-numpy
-	-pandas 
-	-matplotlib
+  - numpy == 1.20.1
+  - pandas == 1.2.4
+  - matplotlib == 3.3.4
+  - sklearn == 0.24.1
+  - seaborn == 0.11.1
+  - Ipython == 7.22.0
+  - ipywidgets == 7.6.3
+  - mpl_toolkits
+  - warnings
+  - pip:
+    -git+ (!pip install mlxtend, http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/)
+    -git+ (!pip install efficient-apriori, https://efficient-apriori.readthedocs.io/en/latest/)
