@@ -1,7 +1,7 @@
 name: DaLI-DM
 channels: 
--conda-forge
+	-conda-forge
 dependencies:
--numpy
--pandas 
--matplotlib
+	-numpy
+	-pandas 
+	-matplotlib
