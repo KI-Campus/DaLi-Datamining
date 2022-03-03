@@ -9,8 +9,6 @@ dependencies:
   - seaborn == 0.11.1
   - Ipython == 7.22.0
   - ipywidgets == 7.6.3
-  - mpl_toolkits
-  - warnings
+  - mlxtend
   - pip:
-    -git+ (!pip install mlxtend, http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/)
-    -git+ (!pip install efficient-apriori, https://efficient-apriori.readthedocs.io/en/latest/)
+    - efficient-apriori
