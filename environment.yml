@@ -1,4 +1,4 @@
-name: DaLI-DM
+name: python-dali-dm
 channels: 
   - conda-forge
 dependencies:
